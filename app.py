@@ -22,7 +22,25 @@ with pages[0]:
 with pages[1]:
     st.header("Single Gas Permeation")
     st.write("Permeability Calculator: Select the variable to solve for and enter the other values.")
-
+    st.markdown(r"""
+        <b>Downstream Volume Permeability Calculator</b><br>
+        <span style='font-size: 1.1em;'>
+        $$P = 10^{10} \cdot \frac{\frac{\Delta P}{\Delta t} \cdot V_d \cdot l}{p_2 \cdot A \cdot R \cdot T}$$
+        </span>
+        <br>
+        <i>Where:</i><br>
+        <ul>
+        <li><b>P</b>: Permeability (barrer)</li>
+        <li><b>ΔP/Δt</b>: Pressure change over time (Torr/min)</li>
+        <li><b>V<sub>d</sub></b>: Downstream volume (cm³)</li>
+        <li><b>l</b>: Thickness (cm)</li>
+        <li><b>p<sub>2</sub></b>: Feed pressure (atm)</li>
+        <li><b>A</b>: Area (cm²)</li>
+        <li><b>R</b>: Gas constant (2.78)</li>
+        <li><b>T</b>: Temperature (K)</li>
+        </ul>
+        """, unsafe_allow_html=True)
+    
     variables = {
         "P": "Permeability (barrer)",
         "PressureChange": "Pressure Change (Torr)",
