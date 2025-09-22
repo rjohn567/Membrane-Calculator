@@ -30,14 +30,14 @@ with pages[1]:
         <br>
         <i>Where:</i><br>
         <ul>
-        <li><b>P</b>: Permeability (barrer)</li>
-        <li><b>ΔP/Δt</b>: Pressure change over time (Torr/min)</li>
-        <li><b>V<sub>d</sub></b>: Downstream volume (cm³)</li>
-        <li><b>l</b>: Thickness (cm)</li>
-        <li><b>p<sub>2</sub></b>: Feed pressure (atm)</li>
-        <li><b>A</b>: Area (cm²)</li>
-        <li><b>R</b>: Gas constant (2.78)</li>
-        <li><b>T</b>: Temperature (K)</li>
+        <li><b>P</b>: Permeability</li>
+        <li><b>ΔP/Δt</b>: Pressure change over time</li>
+        <li><b>V<sub>d</sub></b>: Downstream volume</li>
+        <li><b>l</b>: Thickness</li>
+        <li><b>p<sub>2</sub></b>: Feed pressure</li>
+        <li><b>A</b>: Area</li>
+        <li><b>R</b>: Gas constant</li>
+        <li><b>T</b>: Temperature</li>
         </ul>
         """, unsafe_allow_html=True)
     
@@ -117,15 +117,15 @@ with pages[2]:
         <br>
         <i>Where:</i><br>
         <ul>
-        <li><b>P</b>: Permeability (barrer)</li>
+        <li><b>P</b>: Permeability</li>
         <li><b>x<sub>1</sub></b>: Mole fraction of gas in permeate</li>
         <li><b>x<sub>h</sub></b>: Mole fraction of carrier gas in permeate</li>
         <li><b>x<sub>2</sub></b>: Mole fraction of gas in feed</li>
-        <li><b>S</b>: Sweep gas flow rate (sccm)</li>
-        <li><b>l</b>: Thickness (cm)</li>
-        <li><b>A</b>: Area (cm²)</li>
-        <li><b>p<sub>2</sub></b>: Upstream pressure (atm)</li>
-        <li><b>p<sub>1</sub></b>: Downstream pressure (atm)</li>
+        <li><b>S</b>: Sweep gas flow rate</li>
+        <li><b>l</b>: Thickness</li>
+        <li><b>A</b>: Area</li>
+        <li><b>p<sub>2</sub></b>: Upstream pressure</li>
+        <li><b>p<sub>1</sub></b>: Downstream pressure</li>
         </ul>
         """, unsafe_allow_html=True)
 
@@ -218,15 +218,15 @@ with pages[3]:
         <br>
         <i>Where:</i><br>
         <ul>
-        <li><b>S</b>: Sorption (cm³(STP)/cm³ polymer)</li>
+        <li><b>S</b>: Sorption</li>
         <li><b>n<sub>m</sub></b>: Moles of gas sorbed</li>
-        <li><b>ΔP</b>: Pressure drop (psi)</li>
-        <li><b>V<sub>s</sub></b>: Sample chamber volume (cm³)</li>
-        <li><b>V<sub>c</sub></b>: Charge volume (cm³)</li>
-        <li><b>R</b>: Gas constant (1206.2379)</li>
-        <li><b>T</b>: Temperature (K)</li>
-        <li><b>V<sub>p</sub></b>: Volume of polymer (cm³)</li>
-        <li><b>P<sub>f</sub></b>: Final pressure (atm)</li>
+        <li><b>ΔP</b>: Pressure drop</li>
+        <li><b>V<sub>s</sub></b>: Sample chamber volume </li>
+        <li><b>V<sub>c</sub></b>: Charge volume</li>
+        <li><b>R</b>: Gas constant</li>
+        <li><b>T</b>: Temperature</li>
+        <li><b>V<sub>p</sub></b>: Volume of polymer</li>
+        <li><b>P<sub>f</sub></b>: Final pressure</li>
         </ul>
         """, unsafe_allow_html=True)
 
