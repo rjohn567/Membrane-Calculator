@@ -13,8 +13,11 @@ pages = st.tabs([
 ])
 
 with pages[0]:
-    st.header("Welcome")
+    st.header("Welcome!")
     st.write("This is the Membrane Calculator web application. Use the tabs above to navigate between different calculators.")
+    st.write("This website was built by Ryan Johnson at the University of Florida in Dr. Moon's lab. (Go Gators!) If you have any questions or feedback, please reach out!")
+    st.write("Email: ryan.johnson@ufl.edu")
+    st.write("LinkedIn: https://www.linkedin.com/in/ryan-johnson-328441172/")
 
 with pages[1]:
     st.header("Single Gas Permeation")
